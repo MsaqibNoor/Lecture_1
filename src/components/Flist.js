@@ -7,14 +7,14 @@ class Flist extends Component {
       <View style={styles.container}>
         <FlatList
           data={[
-            {key: 'Devin'},
-            {key: 'Jackson'},
-            {key: 'James'},
-            {key: 'Joel'},
-            {key: 'John'},
-            {key: 'Jillian'},
-            {key: 'Jimmy'},
-            {key: 'Julie'},
+            {key: 'Ali'},
+            {key: 'Atif'},
+            {key: 'Sameer'},
+            {key: 'Umair'},
+            {key: 'Umer'},
+            {key: 'Salman'},
+            {key: 'Sami'},
+            {key: 'Javeed'},
           ]}
           renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
         />
